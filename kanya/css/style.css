@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Happy+Monkey);
+@import url(http://fonts.googleapis.com/css?family=Adamina);
+@import url(http://fonts.googleapis.com/css?family=Judson);
+
+body {
+	font-family: 'Adamina', serif;
+	font-size: 100%;
+	color: #4C4C4C;
+	min-width: 980px;
+	background: #EEE;
+	margin: 0;
+}
+
+.padding {
+	width: 100%;
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+	padding: 25px 0 25px 0;
+}
+
+header h1,#credits,#about {
+	padding-left: 50px;
+	font-family: 'Judson', serif;
+}
+
+header h1 {
+	font-family: 'Happy Monkey', cursive;
+}
+
+#about {
+	padding-top: 10px;
+}
+
+nav {
+	color: black;
+	background-image: linear-gradient(bottom, rgb(189, 189, 189) 0%, rgb(223, 235, 235) 56% );
+	background-image: -o-linear-gradient(bottom, rgb(189, 189, 189) 0%, rgb(223, 235, 235) 56% );
+	background-image: -moz-linear-gradient(bottom, rgb(189, 189, 189) 0%, rgb(223, 235, 235) 56% );
+	background-image: -webkit-linear-gradient(bottom, rgb(189, 189, 189) 0%, rgb(223, 235, 235) 56% );
+	background-image: -ms-linear-gradient(bottom, rgb(189, 189, 189) 0%, rgb(223, 235, 235) 56% );
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(189, 189, 189) ), color-stop(0.56, rgb(223, 235, 235) ) );
+	/*position: fixed;*/
+	/*top: 0px;*/
+	padding: 15px 0 45px 0;
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+	padding: 0 20px;
+	text-shadow: 2px 2px 1px #A4A4A4;
+}
+
+section#content {
+	width: 950px;
+	padding: 20px 20px;
+	margin: 20px auto;
+	font-size: 0.875em;
+	line-height: 1.714em;
+	position: relative;
+	background-color: white;
+	opacity: 0.9;
+}
+
+#pub {
+	height: 455px;
+	opacity: 1;
+}
+
+aside#about {
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+	position: relative;
+	z-index: 2;
+}
