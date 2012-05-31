@@ -1,3 +1,5 @@
+/*http://www.colorcombos.com/color-schemes/304/ColorCombo304.html*/
+
 @import url(http://fonts.googleapis.com/css?family=Happy+Monkey);
 @import url(http://fonts.googleapis.com/css?family=Adamina);
 @import url(http://fonts.googleapis.com/css?family=Judson);
@@ -16,16 +18,20 @@ body {
 	background-color: black;
 	color: white;
 	opacity: 0.9;
-	padding: 25px 0 25px 0;
+	padding: 5px 0 5px 0;
+}
+
+header {
+	font-family: 'Happy Monkey', cursive;
+}
+
+header h3 {
+	padding-left: 130px;
 }
 
 header h1,#credits,#about {
 	padding-left: 50px;
 	font-family: 'Judson', serif;
-}
-
-header h1 {
-	font-family: 'Happy Monkey', cursive;
 }
 
 #about {
@@ -42,7 +48,7 @@ nav {
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(189, 189, 189) ), color-stop(0.56, rgb(223, 235, 235) ) );
 	/*position: fixed;*/
 	/*top: 0px;*/
-	padding: 15px 0 45px 0;
+	padding: 2px 0 42px 0;
 }
 
 nav li {
@@ -60,11 +66,12 @@ section#content {
 	line-height: 1.714em;
 	position: relative;
 	background-color: white;
-	opacity: 0.9;
+	opacity: 1;
+	background: url(content-tail.png) left top repeat;
 }
 
-#pub {
-	height: 455px;
+#promos {
+	height: 383px;
 	opacity: 1;
 }
 

@@ -1,0 +1,75 @@
+.slider {
+	position: relative;
+	width: 900px;
+	height: 324px;
+	margin: 0 auto 30px;
+}
+
+.items {
+	display: none;
+}
+
+.banner {
+	width: 250px;
+	height: 324px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 660px;
+	z-index: 99;
+}
+
+.title {
+	display: block;
+	font-size: 44px;
+	line-height: 2em;
+}
+
+.title strong {
+	display: inline-block;
+	line-height: 2em;
+	color: #d66901;
+}
+
+.title em {
+	display: inline-block;
+	line-height: 2em;
+	font-style: normal;
+	color: #242424;
+}
+
+.banner p {
+	font-family: 'Adamina', serif;
+	font-size: 19px;
+	line-height: 29px;
+	color: #4d4d4d;
+}
+
+.pags {
+	z-index: 99;
+	position: relative;
+	left: 222px;
+	bottom: 50px;
+}
+
+.pags li {
+	float: left;
+	padding-right: 2px;
+}
+
+.pags li a {
+	display: block;
+	width: 23px;
+	height: 23px;
+	text-indent: -9999px;
+	background: url(pags.png) right top no-repeat;
+	cursor: pointer;
+}
+
+.pags li a:hover,.pags li.current a {
+	background-position: left top;
+}
+
+.pags li.current a {
+	cursor: default;
+}
